@@ -6,10 +6,10 @@
 read -p "Wpisz ilosc pamieci RAM dla Windows (domyslnie: 4G): " RAM
 RAM=${RAM:-4G}
 
-read -p "Wpisz ilosc pamieci RAM dla Windows (domyslnie: 4G): " CORES
+read -p "Wpisz ilosc rdzeni przydzielonych dla Windows (domyslnie: 4): " CORES
 CORES=${CORES:-4}
 
-read -p "Wpisz ilosc pamieci RAM dla Windows (domyslnie: 4G): " DISK_SIZE
+read -p "Wpisz pojemnosc dysku, ktora przydzielic dla Windows (domyslnie: 40G): " DISK_SIZE
 DISK_SIZE=${DISK_SIZE:-40G}
 
 read -p "Wklej direct download link do iso systemu (domyslnie: WINDOWS 10): " VERSION
